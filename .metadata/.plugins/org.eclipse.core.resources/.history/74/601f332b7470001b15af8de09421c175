@@ -1,0 +1,32 @@
+package lists;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListCreate {
+
+	public static void main(String[] args) {
+		// without generics
+//		ArrayList fruits=new ArrayList();
+//		fruits.add("Apple");
+//		fruits.add(23);
+		
+//		with generics
+//		ArrayList<String> fruits=new ArrayList();
+//		fruits.add("Apple");
+//		fruits.add(23);
+//		
+//		System.out.println(fruits);
+		
+		List<String> fruits=new ArrayList();
+		fruits.add("Apple");
+		
+		System.out.println(fruits);
+		
+//		Pair<String, Integer> p1=new Pair("Neha",437);
+//		Pair<Boolean, String> p2=new Pair(true,"Hello");
+//		p1.getDescription();
+//		p2.getDescription();
+	}
+
+}

@@ -1,0 +1,15 @@
+package lists;
+
+import java.util.ArrayList;
+
+public class ArrayListCreate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList fruits=new ArrayList();
+		fruits.add("Apple");
+		fruits.add(23);
+		System.out.println(fruits);
+	}
+
+}

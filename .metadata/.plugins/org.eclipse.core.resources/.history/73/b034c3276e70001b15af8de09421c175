@@ -1,0 +1,21 @@
+package lists;
+
+import java.util.ArrayList;
+
+public class ArrayListCreate {
+
+	public static void main(String[] args) {
+		// without generics
+//		ArrayList fruits=new ArrayList();
+//		fruits.add("Apple");
+//		fruits.add(23);
+		
+//		with generics
+		ArrayList<String> fruits=new ArrayList();
+		fruits.add("Apple");
+		fruits.add(23);
+		
+		System.out.println(fruits);
+	}
+
+}
